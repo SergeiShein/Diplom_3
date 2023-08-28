@@ -2,7 +2,6 @@ import constants.DriverConstants;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.example.ExitPage;
 import org.example.TransitionToConstructorPage;
 import org.junit.After;
 import org.junit.Before;
@@ -20,7 +19,6 @@ public class TransitionToConstructorTest {
     @Before
     public void init() {
         RestAssured.baseURI = "https://stellarburgers.nomoreparties.site";
-        WebDriverManager.chromedriver().setup();
         driver = DriverConstants.getWebDriver("yandex");
         driver.get(DriverConstants.MAIN_PAGE_URL);
         File json = new File("src/test/resources/valideUser.json");

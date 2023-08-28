@@ -2,14 +2,11 @@ import constants.DriverConstants;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.example.ExitPage;
 import org.example.PersonalAccountPage;
-import org.example.RegisterPage;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
 
