@@ -1,5 +1,4 @@
 import constants.DriverConstants;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.example.TransitionToConstructorPage;
